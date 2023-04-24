@@ -1,7 +1,9 @@
+import { CheckerBoard } from "./checker_board/CheckerBoard"
+
 function App() {
   return (
     <div className="App">
-      Hello World
+      <CheckerBoard/>
     </div>
   )
 }
